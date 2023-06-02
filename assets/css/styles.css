@@ -23,7 +23,8 @@ body > header {
 }
 header > p {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  margin: auto 15px;
 }
 
 header h1 {
@@ -37,6 +38,8 @@ main {
   margin: 20px 0;
   border-radius: 3px;
   max-width: 800px;
+  min-height: 51vh;
+  min-width: 400px;
 }
 
 footer {
@@ -46,7 +49,9 @@ footer {
   padding: 10px 0;
   width: 100%;
 }
-
+nav {
+  padding: 0 15px;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
