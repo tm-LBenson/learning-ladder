@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/styles.css' | relative_url }}"
+    />
   </head>
   <body>
     <header>
       <h1>My Learning Journal</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li>
+            <a href="{{ '/notes/general-notes' | relative_url }}">Notes</a>
+          </li>
+         
+        </ul>
+      </nav>
     </header>
-    <main>
-      {{ content }}
-    </main>
+    <main>{{ content }}</main>
     <footer>
       <p>&copy; {{ 'now' | date: "%Y" }} - Lewis Benson</p>
     </footer>
