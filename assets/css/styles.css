@@ -17,6 +17,13 @@ body > header {
   background-color: #333;
   color: #fff;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+header > p {
+  color: #fff;
+  font-size: 2rem;
 }
 
 header h1 {
