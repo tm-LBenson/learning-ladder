@@ -26,6 +26,9 @@ header > p {
   font-size: 1.2rem;
   margin: auto 15px;
 }
+.post-meta {
+  color: #333;
+}
 
 header h1 {
   margin: 0;
