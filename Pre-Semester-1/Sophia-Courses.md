@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  "Pre-Semester 1: Sophia Courses"
-date:   2023-06-02
+title: 'Pre-Semester 1: Sophia Courses'
+date: 2023-06-02
 ---
-
-
-# Pre-Semester 1: Sophia Courses
 
 ## Introduction
 
@@ -25,7 +22,6 @@ This period of uncertainty, though challenging, is also a reminder of the comple
 
 I hope that as my enrollment concludes, I will gain a clearer picture of my academic path, enabling me to make informed decisions about my course selections and overall strategy. I am committed to turning this period of uncertainty into an opportunity for learning and growth.
 
-
 ## Coursework
 
 ### ENG 90: Writing Fundamentals
@@ -42,7 +38,7 @@ These were shorter courses which I completed in a matter of hours. They provided
 
 ### Introduction to Python Programming
 
-As a subject I am already comfortable with, I chose this course to enhance my Python programming skills. My background in Python, data structures and algorithms (DSA), object-oriented programming (OOP), and whiteboarding problems greatly facilitated my navigation of the course material. 
+As a subject I am already comfortable with, I chose this course to enhance my Python programming skills. My background in Python, data structures and algorithms (DSA), object-oriented programming (OOP), and whiteboarding problems greatly facilitated my navigation of the course material.
 
 The course is structured in a way that it could potentially take several weeks for someone new to Python and programming concepts. However, due to my previous experience and practice, I was able to complete it in a few hours. This accelerated completion time is a testament to my proficiency and the robust foundation I have in Python programming.
 
@@ -57,4 +53,3 @@ Sophia Learning allows for only two active courses at a time. Currently, I am aw
 ## Looking Forward
 
 I look forward to attending on-ground classes at the Arlington Campus one day per quarter. As I await my enrollment to be finalized, I am excited to kick start my journey towards academic excellence.
-

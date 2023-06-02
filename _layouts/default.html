@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   </head>
   <body>
-    {{ content }}
+    <header>
+      <h1>My Learning Journal</h1>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>&copy; {{ 'now' | date: "%Y" }} - Lewis Benson</p>
+    </footer>
   </body>
 </html>
