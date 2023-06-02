@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Welcome to my Learning Journal!
-
 Welcome to my Learning Journal! This site documents my journey through college. You'll find my reflections on classes, experiences, and learnings. Take a look around and feel free to follow along on my educational journey.
 
 ## Current Posts
