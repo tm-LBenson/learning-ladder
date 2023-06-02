@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Pre-Semester 1: Sophia Courses"
+date:   2023-06-02
+---
+
+
 # Pre-Semester 1: Sophia Courses
 
 ## Introduction
