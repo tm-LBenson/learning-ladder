@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home">
+
+  <h1 class="page-heading">{{ page.title }}</h1>
+
+  {% assign sorted_semesters = site.posts | sort: 'semester' %}
+  {% for semester in sorted_semesters %}
+    <h2>{{ semester.semester }}</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        {% if post.semester == semester.semester %}
+          <li>
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if post.excerpt %}
+              <p class="post-excerpt">{{ post.excerpt | markdownify | truncate: 160 }}</p>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+</div>
